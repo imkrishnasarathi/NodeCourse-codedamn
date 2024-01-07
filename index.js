@@ -1,3 +1,3 @@
 // 1. Common JS 
-const util = require('./util');
-console.log(util.addNumbers(5, 2));
+const { createFile } = require('./util.js');
+createFile("test.txt", "Hello World!");
