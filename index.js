@@ -1,3 +1,8 @@
 // 1. Common JS 
 const { createFile } = require('./util.js');
-createFile("test.txt", "Hello World!");
+
+const fs = require('fs');
+
+console.log(fs.readdirSync('.'));
+
+// createFile("test.txt", "Hello World!");
