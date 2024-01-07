@@ -6,4 +6,6 @@ export function internal__cube(num){
     return num**3;
 }
 
+export const num = 5;
+
 // module.exports = { square };
