@@ -2,7 +2,7 @@ function square(num){
     return num**2;
 }
 
-function cube(num){
+function internal__cube(num){
     return num**3;
 }
 
@@ -11,5 +11,5 @@ function cube(num){
 
 export {
     square,
-    cube
+    internal__cube as cube
 }
