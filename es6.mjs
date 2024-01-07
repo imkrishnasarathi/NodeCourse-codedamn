@@ -4,6 +4,6 @@
 //     fs.readFileSync("common.js", "utf8")
 // )
 
-import { cube as cubeThisNumber } from "./modules.mjs";
+import { square, cube } from "./modules.mjs";
 
-console.log(cubeThisNumber(5));
+console.log(cube(5));
