@@ -4,6 +4,10 @@
 //     fs.readFileSync("common.js", "utf8")
 // )
 
-import * as util from "./modules.mjs";
+// import * as util from "./modules.mjs";
 
-console.log(util.cube(5));
+// console.log(util.cube(5));
+
+import { square, power4 } from './modules.mjs';
+
+console.log(square, power4);
