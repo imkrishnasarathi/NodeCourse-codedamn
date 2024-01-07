@@ -1,7 +1,9 @@
 // 1. Common JS 
 const { createFile } = require('./util.js');
 
-const fs = require('fs');
+const _fs = require('fs');
+
+const fs = _fs.promises;
 
 console.log(fs.readdirSync('.'));
 
