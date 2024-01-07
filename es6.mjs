@@ -4,6 +4,6 @@
 //     fs.readFileSync("common.js", "utf8")
 // )
 
-import square from "./modules.mjs"
+import square from "./modules.mjs";
 
 console.log(square(5));
